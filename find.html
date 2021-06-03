@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - Kokoa Clone</title>
+    <title>Find - Kokoa Clone</title>
 </head>
 <body>
     <div class="status-bar">
@@ -30,11 +30,11 @@
         <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-2x"></i></span>
-            <span><i class="fas fa-cog fa-2x"></i></span>
+            <span><a href="settings.html"><i class="fas fa-cog fa-2x"></i></a></span>
             <span class="dot"></span>
         </div>
     </header>
-    <main class="main-screen">
+    <main class="main-screen ">
         <div class="icon-row">
                 <div class="icon-row__icon">
                     <i class="fas fa-qrcode"></i>
@@ -78,7 +78,7 @@
                     <div class="open-post__photo">
                         <img src="https://i.pinimg.com/564x/d3/fb/24/d3fb24365fc0276672309c0b53795337.jpg" />
                         <div class="open-post__heart-count">
-                            <i class="fas fa-heart fa-xs"><span>325</span></i>
+                            <i class="fas fa-heart fa-xs"></i><span>325</span>
                         </div>
                     </div>
                 </div>
@@ -117,7 +117,9 @@
             </li>
         </ul>
     </nav>
-    
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
     <script src="https://kit.fontawesome.com/6b76b822e7.js" crossorigin="anonymous"></script>
 </body>
 </html>
